@@ -36,4 +36,4 @@ cd ~/repos/
 
 gh repo clone rheaply/developer-tools
 
-pwsh -F ./developer-tools/setup/new_machine.ps1
+pwsh -F ./developer-tools/machine_setup/new_machine.ps1
