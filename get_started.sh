@@ -1,8 +1,8 @@
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-(echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> ~/.zshrc
+(echo 'eval "$(/usr/local/bin/brew shellenv)"') >> ~/.zshrc
 
-eval "$(/opt/homebrew/bin/brew shellenv)"
+eval "$(/usr/local/bin/brew shellenv)"
 
 (echo '
 if [ -f machine_config.env ]
